@@ -1,0 +1,240 @@
+{
+    "name": "GAME - Input",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "b64c1b86-71d5-418d-9051-d0dbee005006",
+            "actions": [
+                {
+                    "name": "boostingLeft",
+                    "type": "Button",
+                    "id": "6365fba1-41b7-40b2-b77f-ec4566deb859",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "boostingRight",
+                    "type": "Button",
+                    "id": "08f6852f-2714-474e-8669-19a711ad9394",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "breaking",
+                    "type": "Button",
+                    "id": "2bb77db0-e6ed-4475-a9a7-46edce615bc9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "bigBoost",
+                    "type": "Button",
+                    "id": "ec3885ac-c5b6-4ac9-a6af-2a6630ee2985",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "yaw",
+                    "type": "Value",
+                    "id": "17d5365e-b719-4e6e-8152-ddb080ceba07",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "pitch",
+                    "type": "Value",
+                    "id": "fe60f043-f241-4382-89cb-332fd8622cfe",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "roll",
+                    "type": "Value",
+                    "id": "b3ff8034-0bdc-422e-8197-0093764f55cd",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "grabbingLeft",
+                    "type": "Value",
+                    "id": "e1803f68-5adc-4a80-9d12-f3c6d097d595",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "grabbingRight",
+                    "type": "Value",
+                    "id": "d0a30c53-8cfd-4e19-bc5a-701129e9bd82",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "leftVelo",
+                    "type": "Value",
+                    "id": "d09287aa-1da3-4c3b-9b28-c0f960b3c74f",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "rightVelo",
+                    "type": "Value",
+                    "id": "3664bef0-d289-4dc2-9fd8-70aa3170cb0a",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8e9f4ebc-3fbb-406b-96c2-be9ed815fa87",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Oculus Touch",
+                    "action": "boostingLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bc528696-00e1-47f0-a362-c54d27916a48",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Oculus Touch",
+                    "action": "boostingRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "573aa158-41df-4b85-953b-98f3af9a903a",
+                    "path": "<XRController>{RightHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Oculus Touch",
+                    "action": "breaking",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "52281fe8-ee45-458c-91ab-0181b82df7db",
+                    "path": "<XRController>{LeftHand}/secondary2DAxisClick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Oculus Touch",
+                    "action": "bigBoost",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c981b8a5-46ba-4553-8854-00b8fa34a4ed",
+                    "path": "<XRController>{RightHand}/primary2DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Oculus Touch",
+                    "action": "yaw",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "be6d82bb-680a-42d9-b475-a35d6b141b62",
+                    "path": "<XRController>{RightHand}/primary2DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Oculus Touch",
+                    "action": "pitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b9374b99-032c-496d-bd43-2a663f3f6e80",
+                    "path": "<XRController>{LeftHand}/primary2DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Oculus Touch",
+                    "action": "roll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b233e87-bd02-402e-9a21-5ea7f34c0e54",
+                    "path": "<XRController>{LeftHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "grabbingLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dedbf2bd-fd4b-4b35-9e05-368a472f7b1e",
+                    "path": "<XRController>{RightHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "grabbingRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "80b1beb7-1eb3-4c42-8b07-2e392cd851a1",
+                    "path": "<XRController>{LeftHand}/deviceVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "leftVelo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "231c7cac-780b-4d01-b5ca-b6d8c82b6963",
+                    "path": "<XRController>{RightHand}/deviceVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "rightVelo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Oculus Touch",
+            "bindingGroup": "Oculus Touch",
+            "devices": []
+        }
+    ]
+}
