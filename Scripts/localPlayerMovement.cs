@@ -36,15 +36,6 @@ public class localPlayerMovement : MonoBehaviour
     }
     public Other other;
 
-    void UpdateMovement()
-    {
-        
-    }
-
-    void Start()
-    {
-    }
-
     void FixedUpdate()
     {
         if(inputs.boostLeft.action.IsPressed())
